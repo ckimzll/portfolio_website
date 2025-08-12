@@ -173,7 +173,7 @@ const Section2 = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 1 }}
             >
-              더 나은 답을 찾는 개발자 <br/>
+              도전을 통해 성장하는 개발자 <br/>
               <span>김채연</span>입니다.
             </motion.div>
           </div>
@@ -192,17 +192,15 @@ const Section2 = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
           >
-            로봇을 연결하는 건 기술, <br/>
-            <b>팀을 연결하는 건 소통</b>입니다. <br/>
+            ROS2·DDS 기반 아키텍처 설계 경험을 바탕으로 <br/>
+            <b>센서, 제어, 내비게이션을 하나로 연결하는 시스템을 구축했습니다.</b>
+            <br/><br/>
+            LiDAR 데이터 처리와 OpenCV 비전 인식을 구현하며<br/>
+            <u>Shift-GCN 등 최신 딥러닝 기술을 적용해 행위 분류 모델을 개발했습니다.</u> <br/>
             <br/>
-            <u>센서–제어–내비게이션</u>을 <br/>
-            한 흐름으로 잇는 로보틱스 엔지니어. <br/>
-            <br/>
-            <b>ROS2 · DDS</b>로 신뢰성과 지연을 설계하고, <br/>
-            서버에서 GUI까지 매끈하게 연결합니다. <br/>
-            <br/>
-            빠르게 변하는 <b>LLM·비전 트렌드</b>를 <br/>
-            민첩하게 포착해 로봇에 즉시 반영합니다
+            <b>방향이 바뀌어도 목표를 향해 꾸준히 나아가고, <br/>
+            반복되는 디버깅 속에서도 포기하지 않고 해결책을 찾아냅니다. <br/>
+            <br/></b>
           </motion.div>
         </div>
       </div>
@@ -317,7 +315,7 @@ const Section5 = () => {
                 current == 3 ?
                 <>
                   <b> IoT Learning 프로젝트  </b>
-                  <b>- 자동 물류 시스템 </b>
+                  <b>- 독거노인 헬스케어 모니터링 시스템  </b>
                 </>
                 : <> </>
               }
@@ -330,7 +328,7 @@ const Section5 = () => {
               <div> 매장주인 GUI 통계 시각화 화면 </div>
               :
               current == 3 ?
-              <div> 일반인 이해를 위한 간소화 시나리오 PPT </div>
+              <div> 보호자 연동 후 모니터링 화면 </div>
               : <></>
             }
           </div>
