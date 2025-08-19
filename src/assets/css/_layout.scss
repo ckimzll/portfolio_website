@@ -257,7 +257,7 @@ $content-width-sm: 600px;
       padding: 150px;
     }
     &-img {
-      @include image('section2-img.png');
+      @include image('section2-img.jpg');
       width: 280px;
       height: 365px;
       position: sticky;
